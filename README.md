@@ -46,3 +46,25 @@ You can also use the following BibTeX entry for LaTeX integration:
   year      = {2026},
   publisher = {Springer}
 }
+```
+
+
+## Requirements and Dependencies
+
+The code in this repository was developed and validated using a hybrid environment combining local execution for texture generation and cloud computing for deep learning models.
+
+### 1. Texture Generation (Local Environment)
+- **GNU Octave:** version `8.4.0`
+- Standard built-in toolboxes for image processing.
+
+### 2. CNN Training and Evaluation (Cloud Environment)
+The deep learning scripts were executed on **Google Colab**, utilizing its hosted runtime environments with the following specifications:
+- **Python:** version `3.12.13`
+- **TensorFlow / Keras:** version `2.20.0`
+- **NumPy:** version `2.0.2`
+- **Pandas:** version `2.2.2`
+- **Matplotlib:** version `3.10.0`
+- **Seaborn:** version `0.13.2`
+- **Scikit-learn:** version `1.6.1`
+
+*Note: Built-in libraries used (such as `os`, `csv`, and `google.colab`) are part of the standard Python and Google Colab environments. Since the notebooks are designed to run on Google Colab, all major deep learning dependencies are pre-installed in the cloud runtime. You only need a standard Google account to open and execute the notebooks using the provided files.*
